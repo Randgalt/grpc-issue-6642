@@ -21,3 +21,5 @@ Response onCompleted
 Calling channel shutdown
 calling awaitTermination
 ```
+
+It's hanging at https://github.com/Randgalt/grpc-issue-6642/blob/master/src/main/java/test/TestClient.java#L44
