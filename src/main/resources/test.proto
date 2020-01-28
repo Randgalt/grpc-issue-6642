@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package test;
+
+message TestRequest {
+    string requestCode = 1;
+}
+
+message TestResponse {
+    string responseCode = 1;
+}
+
+service TestService {
+    rpc process (stream TestRequest) returns (stream TestResponse);
+}
