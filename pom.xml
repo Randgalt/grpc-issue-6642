@@ -13,7 +13,7 @@
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <grpc-protobuf.version>1.26.0</grpc-protobuf.version>
+        <grpc-protobuf.version>1.53.0</grpc-protobuf.version>
     </properties>
 
     <dependencies>
